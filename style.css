@@ -1,3 +1,46 @@
+header {
+  text-align: center;
+  color:darkred;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color:white;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightcoral;
+  color: white;
+}
+
+figure {
+  text-align: center;
+}
+
+figure figcaption {
+  font-size: smaller;
+}
+
+figure ~ p {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div {
+  float: left;
+  width: 25%;
+  background-color: lightcoral;
+  text-align: center;
+  color: white;
+}
+
 body {
   width: 100%;
   height: 100%;
